@@ -1,0 +1,32 @@
+.add-movie-container {
+    width: 400px;
+    margin: 0 auto;
+    
+} 
+  
+  .add-movie-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-movie-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    padding: 8px;
+    margin-top: 4px;
+    height: 10px;
+    margin-left: 30px;
+    display: block;
+    margin: auto;
+    background-color: rgb(243, 227, 204);
+  }
+  
+  .form-submit {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom:7px ;
+  }
+  

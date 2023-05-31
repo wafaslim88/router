@@ -1,0 +1,45 @@
+.screen-2{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    background: linear-gradient(to bottom right, #ff9966, #ff5e62); 
+    margin-top: 50px;
+    }
+    .btn{
+        
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        width: 200px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #c4c565;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+    .btn:hover{
+        background-color: #45a049;
+    }
+    .r{
+     margin-right: 50px;
+     background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(15px);
+      padding: 0.5rem 0.8rem;
+      border-radius: 2px;
+      font-size: 10px;
+    }
+    .categories{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        text-decoration-color: #ff5e62;
+    }
+    
