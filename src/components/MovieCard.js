@@ -2,9 +2,10 @@ import React from 'react';
 import ReactStars from "react-stars";
 import Button from 'react-bootstrap/Button';
 import './MovieCard.css';
+import { Link } from 'react-router-dom';
 
 const MovieCard = ({ movie }) => {
-  const { title, description, posterURL, rating } = movie;
+  const {trailer, title, description, posterURL, rating } = movie;
 
   return (
     <div className="screen-2">
@@ -45,7 +46,7 @@ const MovieCard = ({ movie }) => {
 
       <p className="description">{movie.description}</p>
       
-          <Button variant="primary" className='btn'>Watch</Button>
+      <Link to={`/description/${movie.title}`} > <Button variant="primary" className='btn'>Watch</Button></Link>
         </div>
   
   
